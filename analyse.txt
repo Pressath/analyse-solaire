@@ -1,0 +1,11 @@
+Mesures à calculer et leurs formules DAX :
+	moyenne de la vitesse du vent : moyenne_vitesse_vent = AVERAGE(benin_resampled[WS])
+	energie generee -totale : energie_solaire_gereree = SUM(benin_resampled[GHI])
+	energie disponible -totale : energie_solaire_disponible = SUM(benin_resampled[DHI])
+	moyenne temperature ambiante :moyenne_temperature_ambiante = AVERAGE(benin_resampled[Tamb])
+	pression bariometrique -moyenne : moyenne_bariometrique = AVERAGE(benin_resampled[BP])
+
+filtre : 
+	sur le nettoyage (cleaning)
+	sur le champ temporelle (pour le mois et trimestre)
+	
